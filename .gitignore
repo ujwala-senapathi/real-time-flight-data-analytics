@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore generated ETL output
+data/processed/*.csv
+
+# Keep one sample output for GitHub
+!sample_output/flight_data_sample.csv
